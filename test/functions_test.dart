@@ -16,7 +16,7 @@ void main() {
 
   test('test Function xxx', () {
     // act
-    final result = func.test('cc', 'dd');
+    final result = func.test('eee', 'fff');
 
     // assert
     expect(result, true);
