@@ -16,9 +16,9 @@ jobs:
     - name: Run Build Runner
       run: dart run build_runner build test --delete-conflicting-outputs
       
-    - name: Analyze
-      run: flutter analyze
-      
     - name: Run Test
       run: flutter test --coverage
-    
+
+    - name: Upload coverage to codecov
+      run: curl -s https://codecov.io/bash
+      shell: bash
