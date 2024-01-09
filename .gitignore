@@ -138,3 +138,9 @@ lib/main.reflectable.dart
 pubspec.lock
 lib/main.reflectable.dart
 android/app/productionRelease/release
+
+
+inMemoryRealmTest.realm.management/
+inMemoryRealmTest.realm
+inMemoryRealmTest.realm.lock
+inMemoryRealmTest.realm.note
