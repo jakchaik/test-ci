@@ -3,3 +3,6 @@ targets:
     builders:
       realm_dart:realm_generator:
         enabled: false
+      mockito|mockBuilder:
+        generate_for:
+          - test/helper/test_helper.dart
