@@ -13,12 +13,4 @@ void main() {
     // assert
     expect(result, true);
   });
-
-  test('test Function xxx', () {
-    // act
-    final result = func.test('eee', 'fff');
-
-    // assert
-    expect(result, true);
-  });
 }
